@@ -1,0 +1,67 @@
+version: '3.5'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: scrolliris-postgres
+    networks:
+      - scrolliris_backend
+    environment:
+      - POSTGRES_USER=scrolliris
+      - POSTGRES_PASSWORD=scrolliris
+      - POSTGRES_DB=scrolliris_development
+    volumes:
+      - ./var/lib/postgres/data:/var/lib/postgres/data
+    ports:
+      - '5432:5432'
+
+  redis:
+    image: redis:latest
+    container_name: scrolliris-redis
+    networks:
+      - scrolliris_backend
+    ports:
+      - '6379:6379'
+
+  memcached:
+    image: memcached:latest
+    container_name: scrolliris-memcached
+    networks:
+      - scrolliris_backend
+    entrypoint:
+      - memcached
+      - -m 128
+    ports:
+      - '11211:11211'
+
+  console:
+    build:
+      context: ./srv/scrolliris-console
+      dockerfile: Dockerfile
+      args:
+        HTTP_HOST: 0.0.0.0
+        HTTP_PORT: 5000
+        HOST: 0.0.0.0
+        PORT: 5000
+        ENV: development
+    container_name: scrolliris-console
+    networks:
+      - scrolliris_backend
+    depends_on:
+      - postgres
+      - redis
+      - memcached
+    env_file: ./srv/scrolliris-console/.env
+    ports:
+      - '5000:5000'
+
+volumes:
+  scrolliris-postgres:
+
+networks:
+  scrolliris_backend:
+    name: scrolliris_backend
+    driver: bridge
+    external: true
+  default:
+    external:
+      name: scrolliris_backend

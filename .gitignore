@@ -1,0 +1,5 @@
+/var/lib/postgres/data/*
+!/var/lib/postgres/data/*.gitignore
+
+/srv/*
+!/srv/.gitignore
