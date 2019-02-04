@@ -1,0 +1,4 @@
+Mon 05 02 2019 Yasuhiro Asaka <yasuhiro.asaka@grauwoelfchen.net>
+	* Make rc and checkout targets as optional (Add make rc, make init)
+	* Add db seed files support
+	* Add CHANGELOG ;)
