@@ -1,0 +1,369 @@
+---
+classifications:
+  # 001.1
+  - parent: !classification.notation "'001.1'"
+    notation: '001.18'
+    name: 'classification.name.001.18'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 001.8
+  - parent: !classification.notation "'001.8'"
+    notation: '001.89'
+    name: 'classification.name.001.89'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 003.01/09
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.01'
+    name: 'classification.name.003.01'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.02'
+    name: 'classification.name.003.02'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.03'
+    name: 'classification.name.003.03'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.05'
+    name: 'classification.name.003.05'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.07'
+    name: 'classification.name.003.07'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.08'
+    name: 'classification.name.003.08'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.01/.09'"
+    notation: '003.09'
+    name: 'classification.name.003.09'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 003.2
+  - parent: !classification.notation "'003.2'"
+    notation: '003.21/.23'
+    name: 'classification.name.003.21/.23'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.01/.08
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.01'
+    name: 'classification.name.004.01'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.02'
+    name: 'classification.name.004.02'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.03'
+    name: 'classification.name.004.03'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.04'
+    name: 'classification.name.004.04'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.05'
+    name: 'classification.name.004.05'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.07'
+    name: 'classification.name.004.07'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.01/.08'"
+    notation: '004.08'
+    name: 'classification.name.004.08'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.2
+  - parent: !classification.notation "'004.2'"
+    notation: '004.22'
+    name: 'classification.name.004.22'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.2'"
+    notation: '004.23'
+    name: 'classification.name.004.23'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.2'"
+    notation: '004.24'
+    name: 'classification.name.004.24'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.2'"
+    notation: '004.27'
+    name: 'classification.name.004.27'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.3
+  - parent: !classification.notation "'004.3'"
+    notation: '004.3`1/`2'
+    name: 'classification.name.004.3`1/`2'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3'"
+    notation: '004.31'
+    name: 'classification.name.004.31'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3'"
+    notation: '004.32'
+    name: 'classification.name.004.32'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3'"
+    notation: '004.33'
+    name: 'classification.name.004.33'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3'"
+    notation: '004.35'
+    name: 'classification.name.004.35'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3'"
+    notation: '004.38'
+    name: 'classification.name.004.38'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.4
+  - parent: !classification.notation "'004.4'"
+    notation: '004.4`2/`6'
+    name: 'classification.name.004.4`2/`6'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4'"
+    notation: '004.41'
+    name: 'classification.name.004.41'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4'"
+    notation: '004.42'
+    name: 'classification.name.004.42'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4'"
+    notation: '004.43'
+    name: 'classification.name.004.43'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4'"
+    notation: '004.45'
+    name: 'classification.name.004.45'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4'"
+    notation: '004.49'
+    name: 'classification.name.004.49'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.5
+  - parent: !classification.notation "'004.5'"
+    notation: '004.51'
+    name: 'classification.name.004.51'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.5'"
+    notation: '004.52'
+    name: 'classification.name.004.52'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.5'"
+    notation: '004.55'
+    name: 'classification.name.004.55'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.5'"
+    notation: '004.58'
+    name: 'classification.name.004.58'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.6
+  - parent: !classification.notation "'004.6'"
+    notation: '004.62'
+    name: 'classification.name.004.62'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.6'"
+    notation: '004.63'
+    name: 'classification.name.004.63'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.6'"
+    notation: '004.65'
+    name: 'classification.name.004.65'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.6'"
+    notation: '004.67'
+    name: 'classification.name.004.67'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.7
+  - parent: !classification.notation "'004.7'"
+    notation: '004.71'
+    name: 'classification.name.004.71'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.7'"
+    notation: '004.72'
+    name: 'classification.name.004.72'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.7'"
+    notation: '004.73'
+    name: 'classification.name.004.73'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.7'"
+    notation: '004.75'
+    name: 'classification.name.004.75'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.7'"
+    notation: '004.77'
+    name: 'classification.name.004.77'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.7'"
+    notation: '004.78'
+    name: 'classification.name.004.78'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.9
+  - parent: !classification.notation "'004.9'"
+    notation: '004.91'
+    name: 'classification.name.004.91'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.9'"
+    notation: '004.92'
+    name: 'classification.name.004.92'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.9'"
+    notation: '004.93'
+    name: 'classification.name.004.93'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.9'"
+    notation: '004.94'
+    name: 'classification.name.004.94'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 005.3
+  - parent: !classification.notation "'005.3'"
+    notation: '005.31'
+    name: 'classification.name.005.31'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.3'"
+    notation: '005.32'
+    name: 'classification.name.005.32'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.3'"
+    notation: '005.33'
+    name: 'classification.name.005.33'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 005.9
+  - parent: !classification.notation "'005.9'"
+    notation: '005.91'
+    name: 'classification.name.005.91'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.9'"
+    notation: '005.92'
+    name: 'classification.name.005.92'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.9'"
+    notation: '005.93'
+    name: 'classification.name.005.93'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.9'"
+    notation: '005.94'
+    name: 'classification.name.005.94'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'005.9'"
+    notation: '005.95'
+    name: 'classification.name.005.95/.96'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800

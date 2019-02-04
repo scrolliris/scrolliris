@@ -1,0 +1,8 @@
+# ---
+# user_emails:
+#   - user: !user.username "'username'"
+#     type: primary
+#     email: user@scrolliris.com
+#     activation_state: active
+#     activation_token:
+#     activation_token_expires_at:

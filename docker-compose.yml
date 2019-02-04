@@ -57,6 +57,7 @@ services:
     networks:
       - scrolliris_backend
     volumes:
+      - ./opt/seed:/app/db/seed
       - ./log/scrolliris-console:/app/tmp/log
     depends_on:
       - postgres

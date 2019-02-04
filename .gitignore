@@ -7,3 +7,6 @@
 
 /log/*
 !/log/.gitignore
+
+/opt/seed/*.yml
+!/opt/seed/*.sample.yml

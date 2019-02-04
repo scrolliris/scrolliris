@@ -14,7 +14,16 @@ Text readability analysis platform utilizes anonymized data.
 % docker container run -it --rm scrolliris/gentoo:latest /bin/bash -V
 ```
 
-### 1. Boot application images
+### 1. Prepare seed files
+
+Add your user account using seed files.
+
+```zsh
+% cp opt/seed/{users.sample.yml,users.yml}
+% cp opt/seed/{user_emails.sample.yml,user_emails.yml}
+```
+
+### 2. Build/Start images
 
 ```zsh
 % make up

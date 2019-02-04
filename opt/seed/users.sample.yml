@@ -1,0 +1,7 @@
+# ---
+# users:
+#   - name: Full Name
+#     email: user@scrolliris.com
+#     username: username
+#     password: password
+#     activation_state: active

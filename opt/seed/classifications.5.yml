@@ -1,0 +1,59 @@
+---
+classifications:
+  # 003.21/.23
+  - parent: !classification.notation "'003.21/.23'"
+    notation: '003.21'
+    name: 'classification.name.003.21'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.21/.23'"
+    notation: '003.22'
+    name: 'classification.name.003.22'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'003.21/.23'"
+    notation: '003.23'
+    name: 'classification.name.003.23'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.3`1/`2
+  - parent: !classification.notation "'004.3`1/`2'"
+    notation: '004.3`1'
+    name: 'classification.name.004.3`1'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.3`1/`2'"
+    notation: '004.3`2'
+    name: 'classification.name.004.3`2'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.4`2/`6
+  - parent: !classification.notation "'004.4`2/`6'"
+    notation: '004.4`2'
+    name: 'classification.name.004.4`2'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4`2/`6'"
+    notation: '004.4`4'
+    name: 'classification.name.004.4`4'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  - parent: !classification.notation "'004.4`2/`6'"
+    notation: '004.4`6'
+    name: 'classification.name.004.4`6'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
+
+  # 004.73
+  - parent: !classification.notation "'004.73'"
+    notation: '004.738'
+    name: 'classification.name.004.738'
+    created_at: !datetime.utcnow+timedelta -10800
+    updated_at: !datetime.utcnow+timedelta -10800
