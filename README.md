@@ -14,7 +14,17 @@ Text readability analysis platform utilizes anonymized data.
 % docker container run -it --rm scrolliris/gentoo:latest /bin/bash -V
 ```
 
-### 1. Prepare seed files
+### 1. Prepare etc and seed files
+
+Create `etc/.env`. This file will be copied always at make
+init/up/start/restart.
+
+```zsh
+% cp etc/{.env.sample,.env}
+
+# Update .env file
+% $EDITOR etc/.env
+```
 
 Add your user account using seed files.
 
