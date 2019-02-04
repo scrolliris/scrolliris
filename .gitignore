@@ -3,3 +3,6 @@
 
 /srv/*
 !/srv/.gitignore
+
+/log/*
+!/log/.gitignore
