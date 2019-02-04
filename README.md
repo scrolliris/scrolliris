@@ -10,7 +10,7 @@ Text readability analysis platform utilizes anonymized data.
 ```zsh
 % docker image build -t scrolliris/gentoo:latest .
 
-: check
+# check
 % docker container run -it --rm scrolliris/gentoo:latest /bin/bash -V
 ```
 
@@ -26,6 +26,9 @@ Add your user account using seed files.
 ### 2. Build/Start images
 
 ```zsh
+# with --build
+% make init
+
 % make up
 ```
 

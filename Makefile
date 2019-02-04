@@ -38,7 +38,14 @@ network: rc
 	fi
 .PHONY: network
 
-up: rc checkout network
+init: rc network checkout
+	@docker-compose -f docker-compose.yml -p scrolliris up --build -d
+.PHONY: up
+
+up: rc network
+ifeq ($(shell [ "true" = "$${FETCH}" ] && echo $$?), 0)
+	make checkout
+endif
 	@docker-compose -f docker-compose.yml -p scrolliris up -d
 .PHONY: up
 
