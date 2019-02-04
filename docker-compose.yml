@@ -10,9 +10,19 @@ services:
       - POSTGRES_PASSWORD=scrolliris
       - POSTGRES_DB=scrolliris_development
     volumes:
-      - ./var/lib/postgres/data:/var/lib/postgres/data
+      - scrolliris-postgres-data:/var/lib/postgres/data
+    depends_on:
+      - postgres-data
     ports:
       - '5432:5432'
+
+  postgres-data:
+    build:
+      context: ./srv/
+      dockerfile: Dockerfile-postgres-data
+    container_name: scrolliris-postgres-data
+    volumes:
+      - ./var/lib/postgres/data:/var/lib/postgres/data
 
   redis:
     image: redis:latest
@@ -57,7 +67,7 @@ services:
       - '5000:5000'
 
 volumes:
-  scrolliris-postgres:
+  scrolliris-postgres-data:
 
 networks:
   scrolliris_backend:

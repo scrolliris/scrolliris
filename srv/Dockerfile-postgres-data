@@ -1,0 +1,5 @@
+FROM busybox
+
+VOLUME /var/lib/postgres/data
+
+CMD ["/bin/true"]

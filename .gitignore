@@ -3,6 +3,7 @@
 
 /srv/*
 !/srv/.gitignore
+!/srv/Dockerfile*
 
 /log/*
 !/log/.gitignore
